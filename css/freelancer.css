@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Freelancer v5.0.3 (https://startbootstrap.com/template-overviews/freelancer)
+ * Start Bootstrap - Freelancer v5.0.4 (https://startbootstrap.com/template-overviews/freelancer)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
@@ -8,74 +8,7 @@ body {
   font-family: 'Lato';
 }
 
-header {
-  height: 100%;
-  background-image: url(../img/hero_header.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* relevant styles */
-.img__wrap {
-  position: relative;
-}
-
-.img__description {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  color: #fff;
-  opacity: 0;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.img__wrap:hover .portrait{
-  filter: brightness(25%);
-  cursor: pointer;
-}
-
-.img__wrap:hover .img__description {
-  opacity: 1;
-}
-
-.aligncenter {
-  text-align: center;
-  margin-top: -10px;
-}
-
-.lead {
-  font-size: 17px;
-}
-
-.desc {
-  font-size: 28px;
-  font-style: italic;
-}
-
-.higherup {
-  margin-top: -80px;
-}
-.shadowed {
-  text-shadow: 2px 2px black;
-}
-
-.reduced {
-  transform: scale(0.875);
-}
-.navbar-brand {
-  margin-right: -50px;
-}
-
-h1, .shadowed {
-  margin-top: 20px
-}
-h1 {
-  font-size: 5px;
-}
+h1,
 h2,
 h3,
 h4,
@@ -94,7 +27,7 @@ hr.star-dark {
   border-top: solid 0.25rem;
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
-  margin-'le'ft: auto;
+  margin-left: auto;
   margin-right: auto;
 }
 
