@@ -83,20 +83,13 @@ section {
     padding-bottom: 0;
 }
 
-/*.nav-link {
-    margin-top: 0.5rem!important;
-    margin-bottom: 0.5rem!important;
-    padding-top: 0.5rem!important;
-    padding-bottom: 0.5rem!important;
-}*/
-
 #mainNav .navbar-toggler {
     padding: 0.5rem;
 }
 
 @media (min-width: 992px) {
     header.masthead h1 {
-        font-size: 12vh;
+        font-size: 10vh;
       }
 
     #mainNav.navbar-shrink {
@@ -119,9 +112,9 @@ section {
 
 @media (max-height: 550px) {
     header.masthead h1 {
-        font-size: 12vh;
+        font-size: 10vh;
       }
-  
+
     .higherup {
       margin-top: -110px;
     }
