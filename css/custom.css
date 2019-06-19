@@ -22,8 +22,9 @@ section {
 }
 
 /* relevant styles */
-.img-fluid {
-    height: 40vh;
+.portrait {
+  max-width: 100%;
+  height: 40vh;
 }
 
 .img__wrap {
@@ -66,7 +67,7 @@ section {
 }
 
 .higherup {
-  margin-top: -80px;
+  margin-top: -70px;
 }
 
 .shadowed {
@@ -76,9 +77,6 @@ section {
 .reduced {
   transform: scale(0.875);
 }
-.navbar-brand {
-  margin-right: -50px;
-}
 
 #mainNav {
     padding-top: 0;
@@ -86,11 +84,9 @@ section {
 }
 
 @media (min-width: 992px) { 
-  #mainNav.navbar-shrink {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
+
 }
+
 
 .nav-link {
     margin-top: 0.5rem!important;
@@ -106,12 +102,22 @@ section {
 @media (min-width: 992px) {
     header.masthead h1 {
         font-size: 12vh;
+      }
+
+    #mainNav.navbar-shrink {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+
+    .nav-item {
+      align-self: center;
+      text-align: center;
     }
 }
 
 @media (max-height: 550px) {
     .higherup {
-      margin-top: -120px;
+      margin-top: -110px;
     }
 
     h1, .shadowed {
