@@ -18,6 +18,10 @@ header {
   background-size: cover;
 }
 
+section {
+  padding: 2rem 0;
+}
+
 /* relevant styles */
 .img__wrap {
   position: relative;
@@ -44,6 +48,10 @@ header {
   opacity: 1;
 }
 
+.img-fluid {
+    height: 40vh;
+}
+
 .aligncenter {
   text-align: center;
   margin-top: -10px;
@@ -61,6 +69,7 @@ header {
 .higherup {
   margin-top: -80px;
 }
+
 .shadowed {
   text-shadow: 2px 2px black;
 }
@@ -70,4 +79,27 @@ header {
 }
 .navbar-brand {
   margin-right: -50px;
+}
+
+#mainNav {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+@media (min-width: 992px) { 
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.nav-link {
+    margin-top: 0.5rem!important;
+    margin-bottom: 0.5rem!important;
+    padding-top: 0.5rem!important;
+    padding-bottom: 0.5rem!important;
+}
+
+#mainNav .navbar-toggler {
+    padding: 0.5rem;
 }
