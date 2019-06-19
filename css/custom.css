@@ -83,17 +83,12 @@ section {
     padding-bottom: 0;
 }
 
-@media (min-width: 992px) { 
-
-}
-
-
-.nav-link {
+/*.nav-link {
     margin-top: 0.5rem!important;
     margin-bottom: 0.5rem!important;
     padding-top: 0.5rem!important;
     padding-bottom: 0.5rem!important;
-}
+}*/
 
 #mainNav .navbar-toggler {
     padding: 0.5rem;
@@ -113,9 +108,20 @@ section {
       align-self: center;
       text-align: center;
     }
-}
+
+    .nav-link {
+      margin-top: 0.5rem!important;
+      margin-bottom: 0.5rem!important;
+      padding-top: 0.5rem!important;
+      padding-bottom: 0.5rem!important;
+    }
+} 
 
 @media (max-height: 550px) {
+    header.masthead h1 {
+        font-size: 12vh;
+      }
+  
     .higherup {
       margin-top: -110px;
     }
