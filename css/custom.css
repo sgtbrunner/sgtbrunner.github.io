@@ -1,5 +1,4 @@
 h1 {
-  font-size: 5px;
   font-weight: normal;
   font-family: 'Lato';
 }
@@ -23,6 +22,10 @@ section {
 }
 
 /* relevant styles */
+.img-fluid {
+    height: 40vh;
+}
+
 .img__wrap {
   position: relative;
 }
@@ -35,7 +38,7 @@ section {
   right: 0;
   color: #fff;
   opacity: 0;
-  font-size: 24px;
+  font-size: 4vh;
   font-weight: bold;
 }
 
@@ -46,10 +49,6 @@ section {
 
 .img__wrap:hover .img__description {
   opacity: 1;
-}
-
-.img-fluid {
-    height: 40vh;
 }
 
 .aligncenter {
@@ -102,4 +101,26 @@ section {
 
 #mainNav .navbar-toggler {
     padding: 0.5rem;
+}
+
+@media (min-width: 992px) {
+    header.masthead h1 {
+        font-size: 12vh;
+    }
+}
+
+@media (max-height: 550px) {
+    .higherup {
+      margin-top: -120px;
+    }
+
+    h1, .shadowed {
+      margin-top: 0vh;
+    }
+
+    .mini {
+      margin-top: 1rem!important;
+      margin-bottom: 1rem!important;
+      font-size: 0.75rem;
+    }
 }
