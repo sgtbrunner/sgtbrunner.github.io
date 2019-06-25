@@ -18,8 +18,21 @@ header {
 }
 
 section {
-  padding-top: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
+
+li > i {
+  color: #18BC9C!important;
+}
+
+label {
+  font-size: 1.25rem;
+  color: #2C3E50;
+  display: initial;
+  margin-bottom: 0; 
+}
+
 /* relevant styles */
 .portrait {
   max-width: 100%;
@@ -86,6 +99,46 @@ section {
     padding: 0.5rem;
 }
 
+.dev-icons {
+  font-size: 4.5rem;
+  margin: 25px;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+    background-color: white!important;
+}
+
+.portfolio {
+    margin-bottom: 0;
+}
+
+.portfolio-modal-dialog hr.star-light,
+.portfolio-modal-dialog hr.star-dark {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.img-modal {
+    max-width: 100%;
+    max-height: 50vw;
+    height: auto;
+}
+
+.button-row-column .btn {
+    width: 75%;
+    margin-bottom: .5rem;
+}
+
+.button-row-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-control {
+  border-color: #2C3E50;
+}
+
 @media (min-width: 992px) {
     header.masthead h1 {
         font-size: 10vh;
@@ -107,7 +160,79 @@ section {
       padding-top: 0.5rem!important;
       padding-bottom: 0.5rem!important;
     }
-} 
+
+    .dev-icons {
+      font-size: 7rem;
+      margin: 10px 50px;
+    }
+}
+
+@media (min-width: 768px) {
+  .portfolio-modal {
+      min-height: auto!important; 
+      max-height: 100vh;
+      padding: 0!important;
+      margin:0!important;
+  }
+
+  .portfolio-modal-dialog {
+      padding: 3rem 1rem!important;
+      /*margin: 1rem calc(1rem - 8px)!important;*/
+      margin: 0 1rem!important;
+  }
+
+  .portfolio-modal-dialog h2 {
+     font-size: 2rem!important; 
+  }
+
+  .modal-row {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+
+  .img-modal {
+    max-width: 45%;
+  }
+
+  .desc {
+    padding: 0 1rem;
+  }
+
+  .button-row-column {
+    flex-direction: row;
+  }
+
+  .button-row-column .btn {
+    margin: 0 0.5rem;
+  }
+
+  @media (max-width: 992px) {
+    .portfolio-modal-dialog > .portfolio-modal-dismiss {
+      font-size: .75rem;
+    }
+
+    .modal-row {
+      padding-bottom: 3rem;
+    }
+
+    .desc {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .portfolio {
+      margin-bottom: 0; 
+  }
+}
+
+@media (max-width: 576px) {
+    .desc {
+      font-size: 1.5rem;
+    }
+}
 
 @media (max-height: 550px) {
     header.masthead h1 {
