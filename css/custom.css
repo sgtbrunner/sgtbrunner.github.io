@@ -104,6 +104,10 @@ label {
   margin: 25px;
 }
 
+.dev-icons:hover {
+  transform: scale(1.15);
+}
+
 .portfolio .portfolio-item .portfolio-item-caption {
     background-color: white!important;
 }
@@ -163,7 +167,7 @@ label {
 
     .dev-icons {
       font-size: 7rem;
-      margin: 10px 50px;
+      margin: 10px 60px;
     }
 }
 
