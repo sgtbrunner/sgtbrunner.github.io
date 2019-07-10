@@ -9,7 +9,7 @@ None
 ## Getting Started
 
 On terminal:
-1. Run `git clone https://github.com/sgtbrunner/magicbrain-api.git`
+1. Run `git clone https://github.com/sgtbrunner/sgtbrunner.github.io.git`
 2. Run `npm install`
 3. Run `npm start`
 
