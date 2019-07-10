@@ -1,3 +1,31 @@
+# sgtbrunner Portfolio
+
+My project Portfolio including all the projects I've been working on since started my Web Development Journey.
+
+## Prerequisites
+
+None
+
+## Getting Started
+
+On terminal:
+1. Run `git clone https://github.com/sgtbrunner/magicbrain-api.git`
+2. Run `npm install`
+3. Run `npm start`
+
+## Built With
+
+* HTML
+* CSS
+* Bootstrap
+* Javascript
+
+## Authors
+
+* **Guilherme Brunner** - *Initial work* - [sgtbrunner](https://github.com/sgtbrunner)
+
+## Acknowledgements
+
 # [Start Bootstrap - Freelancer](https://startbootstrap.com/template-overviews/freelancer/)
 
 [Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
