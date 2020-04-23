@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "@fortawesome/fontawesome-free@5.7.2",
+      "C:\\Users\\Guilherme Brunner\\Documents\\Web Development\\Projects\\sgtbrunner.github.io"
+    ]
+  ],
   "_from": "@fortawesome/fontawesome-free@5.7.2",
   "_id": "@fortawesome/fontawesome-free@5.7.2",
   "_inBundle": false,
@@ -17,12 +23,10 @@
     "fetchSpec": "5.7.2"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.7.2.tgz",
-  "_shasum": "1498c3eb78ee7c78c5488418707de90aaf58d5d7",
-  "_spec": "@fortawesome/fontawesome-free@5.7.2",
+  "_spec": "5.7.2",
   "_where": "C:\\Users\\Guilherme Brunner\\Documents\\Web Development\\Projects\\sgtbrunner.github.io",
   "author": {
     "name": "Dave Gandy",
@@ -32,7 +36,6 @@
   "bugs": {
     "url": "http://github.com/FortAwesome/Font-Awesome/issues"
   },
-  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Brian Talbot",
@@ -56,7 +59,6 @@
     }
   ],
   "dependencies": {},
-  "deprecated": false,
   "description": "The iconic font, CSS, and SVG framework",
   "engines": {
     "node": ">=6"
