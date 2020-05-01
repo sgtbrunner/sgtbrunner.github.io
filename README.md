@@ -10,8 +10,9 @@ None
 
 On terminal:
 1. Run `git clone https://github.com/sgtbrunner/sgtbrunner.github.io.git`
-2. Run `npm install`
-3. Run `npm start`
+2. Run cd sgtbrunner.github.io
+3. Run `npm install`
+4. Run `npm start`
 
 ## Built With
 
